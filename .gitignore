@@ -1,35 +1,97 @@
-# Byte-compiled / cache files
+# -------------------------
+# Python Cache / Artifacts
+# -------------------------
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
+*.pyd
 
 # Virtual environments
 .env
 .venv
 env/
 venv/
-
-# Distribution / packaging
-build/
-dist/
+ENV/
 *.egg-info/
+.eggs/
 
-# Logs and databases
+# -------------------------
+# Logs & Databases
+# -------------------------
 *.log
+*.sqlite
 *.sqlite3
+*.db
 
-# OS files
+# -------------------------
+# OS Generated Files
+# -------------------------
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# IDE settings
+# -------------------------
+# IDE / Editor
+# -------------------------
 .vscode/
 .idea/
+*.swp
 
-# Testing / Coverage
+# -------------------------
+# Build / Packaging
+# -------------------------
+build/
+dist/
+*.egg
+*.manifest
+*.spec
+
+# -------------------------
+# Testing
+# -------------------------
 .coverage
 .pytest_cache/
 htmlcov/
 
-# AeroHound specific
-modules/__pycache__/
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Linux / C / WiFi Driver Artifacts
+# -------------------------
+*.o        # object files
+*.ko       # kernel object modules
+*.so       # shared objects
+*.out      # compiled output
+*.mod      # module files
+*.mod.c
+*.symvers
+*.order
+modules.order
+Module.symvers
+*.cmd
+
+# Kernel build dirs
+/linux-*
+/*.mod*
+
+# -------------------------
+# Windows Build Artifacts
+# -------------------------
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.exp
+*.ilk
+*.idb
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.bat
+*.msi
+*.lnk
