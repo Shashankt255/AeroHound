@@ -1,47 +1,33 @@
-<<<<<<< HEAD
-@'
+# 🐺 AeroHound  
 
-\# AeroHound (Community Edition)
+[![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg?logo=python)](https://www.python.org/)  
+[![OS](https://img.shields.io/badge/OS-Linux%20%7C%20Windows-lightgrey?logo=linux)](https://github.com/Shashankt255/AeroHound)  
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
+[![Status](https://img.shields.io/badge/Status-Active-success.svg)](https://github.com/Shashankt255/AeroHound)  
 
-
-
-AeroHound is a lightweight Red Team \& Network Recon tool.
-
-
-
-\## Features
-
-\- Scan IPs for open ports
-
-\- AI-based attack suggestions
-
-\- Generate text reports
-
-\- Linux WiFi scanning \& deauth (requires Alfa card + monitor mode)
-
-
-
-\## Usage
-
-\### Network Scan
-
-```bash
-
-python aerohound.py --scan 192.168.1.0/24 --report --ai
-
-=======
-# 🐺 AeroHound
-**AeroHound** – Open-source Wi-Fi penetration testing toolkit for WPA/WPA2 & 802.1X networks.  
+**AeroHound** – Lightweight Red Team & Wi-Fi penetration testing toolkit.  
 Capture, crack, and report like a pro.  
 
 ---
 
+    ▄█▀▀▀▄      ▄▀▀█▄  
+   █▀      █   █      █  
+   █      ▄▀   ▀▄     █  
+   ▀▄   ▄▀       ▀▄  █  
+     ▀▀▀           ▀▀  
+ 🐺 AeroHound – Hunt Networks Like a Wolf
+
+
+---
+
 ## ✨ Features
+- 🔹 Network recon & port scanning
 - 🔹 WPA2/WPA3 handshake capture
 - 🔹 802.1X (EAP/PEAP/MSCHAPv2) attacks
-- 🔹 AI-assisted wordlist generation
+- 🔹 AI-assisted wordlist & attack generation
 - 🔹 Automated reporting
-- 🔹 Modular architecture (plug new attacks easily)
+- 🔹 Wi-Fi deauth (Linux, Alfa card required)
+- 🔹 Modular plugin system
 
 ---
 
@@ -49,9 +35,29 @@ Capture, crack, and report like a pro.
 ```bash
 git clone https://github.com/Shashankt255/AeroHound.git
 cd AeroHound
-python3 install -r requirements.txt
+pip install -r requirements.txt
 
-### 📢 Credits
-Developed and maintained by [Shashankt255](https://github.com/Shashankt255)  
+📌 Usage
+python aerohound.py --scan 192.168.1.0/24 --report --ai
+
+🔍 Network Scan
+python aerohound.py --scan 192.168.1.0/24 --report --ai
+
+📡 Wi-Fi Deauth (Linux only)
+sudo python aerohound.py --wifi wlan0 --deauth
+
+📝 Generate Report
+python aerohound.py --scan 10.0.0.0/24 --report
+
+📢 Credits
+
+Developed & maintained by Shashankt255
+
 🐺 AeroHound © 2025
->>>>>>> 2c22658de8075cc4bbe5a72c670c48e12a8dd085
+
+
+---
+
+⚡ This gives it a **hacker-tool feel** (ASCII + wolf branding) while keeping it professional.  
+
+👉 Do you also want me to design a **dark-mode banner PNG** with a glowing wolf logo that you can add at the very top instead of ASCII (so it looks even more pro on GitHub)?
