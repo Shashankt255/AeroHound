@@ -37,27 +37,20 @@ git clone https://github.com/Shashankt255/AeroHound.git
 cd AeroHound
 pip install -r requirements.txt
 
-📌 Usage
+## 📌 Usage
 python aerohound.py --scan 192.168.1.0/24 --report --ai
 
-🔍 Network Scan
+## 🔍 Network Scan
 python aerohound.py --scan 192.168.1.0/24 --report --ai
 
-📡 Wi-Fi Deauth (Linux only)
+## 📡 Wi-Fi Deauth (Linux only)
 sudo python aerohound.py --wifi wlan0 --deauth
 
-📝 Generate Report
+## 📝 Generate Report
 python aerohound.py --scan 10.0.0.0/24 --report
 
-📢 Credits
+## 📢 Credits
 
 Developed & maintained by Shashankt255
 
 🐺 AeroHound © 2025
-
-
----
-
-⚡ This gives it a **hacker-tool feel** (ASCII + wolf branding) while keeping it professional.  
-
-👉 Do you also want me to design a **dark-mode banner PNG** with a glowing wolf logo that you can add at the very top instead of ASCII (so it looks even more pro on GitHub)?
